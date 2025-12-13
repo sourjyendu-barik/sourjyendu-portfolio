@@ -16,9 +16,26 @@ const Intro = () => {
         full‑cycle development.
       </p>
 
-      <div className="d-flex gap-4">
-        <button className="btn btn-primary btn-lg"> Contact Me</button>
-        <button className="btn btn-primary btn-lg">Resume</button>
+      {/* Large screen buttons */}
+      <div className="d-none d-md-inline-flex gap-2">
+        <a href="#contact" className="btn btn-danger btn-lg">
+          Contact Me
+        </a>
+        <a href="#projects" className="btn btn-danger btn-lg">
+          Project
+        </a>
+        <button className="btn btn-danger btn-lg">Resume</button>
+      </div>
+
+      {/* Small screen buttons */}
+      <div className="d-inline-flex d-md-none gap-2">
+        <a href="#contact" className="btn btn-danger btn-sm">
+          Contact
+        </a>
+        <a href="#projects" className="btn btn-danger btn-sm">
+          Project
+        </a>
+        <button className="btn btn-danger btn-sm">Resume</button>
       </div>
     </>
   );
