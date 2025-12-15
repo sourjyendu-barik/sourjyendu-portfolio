@@ -18,24 +18,36 @@ const Intro = () => {
 
       {/* Large screen buttons */}
       <div className="d-none d-md-inline-flex gap-2">
+        <a
+          href="https://drive.google.com/file/d/15F5LMfmA1WfMmiTrvOSv7m697YDNgyxN/view"
+          className="btn btn-danger btn-lg"
+        >
+          Resume
+        </a>
+
         <a href="#contact" className="btn btn-danger btn-lg">
           Contact Me
         </a>
         <a href="#projects" className="btn btn-danger btn-lg">
           Project
         </a>
-        <button className="btn btn-danger btn-lg">Resume</button>
       </div>
 
       {/* Small screen buttons */}
       <div className="d-inline-flex d-md-none gap-2">
+        <a
+          href="https://drive.google.com/file/d/15F5LMfmA1WfMmiTrvOSv7m697YDNgyxN/view"
+          className="btn btn-danger btn-lg"
+        >
+          Resume
+        </a>
+
         <a href="#contact" className="btn btn-danger btn-sm">
           Contact
         </a>
         <a href="#projects" className="btn btn-danger btn-sm">
           Project
         </a>
-        <button className="btn btn-danger btn-sm">Resume</button>
       </div>
     </>
   );

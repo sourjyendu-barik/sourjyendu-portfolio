@@ -5,19 +5,20 @@ const TechStack = () => {
     "React",
     "Node.js",
     "Express.js",
-    "MongoDb",
-    "Javascript",
-    "Html5",
+    "MongoDB",
+    "JavaScript",
+    "HTML5",
     "CSS3",
     "Postman",
     "Bootstrap",
     "Git",
     "GitHub",
-    "VsCode",
-    "DevTools",
-    "Codesandbox",
+    "Visual Studio Code",
+    "Chrome DevTools",
+    "CodeSandbox",
     "Lucide Icons",
   ];
+
   return (
     <>
       <h2 className="mt-3 display-3 fw-medium">Tech Stack</h2>
